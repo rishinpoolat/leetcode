@@ -1,4 +1,4 @@
-"""You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n,
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n,
  representing the number of elements in nums1 and nums2 respectively.
 
 Merge nums1 and nums2 into a single array sorted in non-decreasing order.
@@ -10,19 +10,18 @@ and the last n elements are set to 0 and should be ignored. nums2 has a length o
  
 
 Example 1:
-
 Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 Output: [1,2,2,3,5,6]
 Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
-Example 2:
 
+Example 2:
 Input: nums1 = [1], m = 1, nums2 = [], n = 0
 Output: [1]
 Explanation: The arrays we are merging are [1] and [].
 The result of the merge is [1].
-Example 3:
 
+Example 3:
 Input: nums1 = [0], m = 0, nums2 = [1], n = 1
 Output: [1]
 Explanation: The arrays we are merging are [] and [1].
@@ -31,14 +30,13 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
  
 
 Constraints:
-
 nums1.length == m + n
 nums2.length == n
 0 <= m, n <= 200
 1 <= m + n <= 200
--109 <= nums1[i], nums2[j] <= 109"""
+-109 <= nums1[i], nums2[j] <= 109
 
-#method 1: TWO POINTER APPROACH
+METHOD : TWO POINTER APPROACH
 
 - We can start with two pointers i and j, initialized to m-1 and n-1, respectively. 
 - We will also have another pointer k initialized to m+n-1, 
@@ -81,7 +79,7 @@ We are not using any extra space, so the space complexity is O(1).
 
 
 
-#method 2
+METHOD 2
 - Traverse through nums2 and append its elements to the end of nums1 starting from index m.
 Sort the entire nums1 array using sort() function.
 
@@ -98,4 +96,4 @@ COMPLEXITY:
 Time complexity: O((m+n)log(m+n))
 due to the sort() function
 Space complexity: O(1)
-We are not using any extra space, so the space complexity is O(1) """
+We are not using any extra space, so the space complexity is O(1) 
