@@ -46,14 +46,16 @@ Constraints:
 0 <= val <= 100"""
 
 #method
-'''- Initialize index to 0, which represents the current position for the next non-target element.
+- Initialize index to 0, which represents the current position for the next non-target element.
 - Iterate through each element of the input array using the i pointer.
 - For each element nums[i], check if it is equal to the target value.
 - If nums[i] is not equal to val, it means it is a non-target element.
 - Set nums[index] to nums[i] to store the non-target element at the current index position.
 - Increment index by 1 to move to the next position for the next non-target element.
 - Continue this process until all elements in the array have been processed.
-- Finally, return the value of index, which represents the length of the modified array.'''
+- Finally, return the value of index, which represents the length of the modified array.
+
+CODE:
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
@@ -64,9 +66,8 @@ class Solution:
                 index += 1
         return index
 
-'''Complexity
+COMPLEXITY:
 Time complexity:
-O(n)O(n)O(n)
-
+O(n)
 Space complexity:
-O(1)O(1)O(1)'''
+O(1)

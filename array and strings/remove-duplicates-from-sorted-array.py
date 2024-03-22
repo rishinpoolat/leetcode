@@ -44,7 +44,7 @@ nums is sorted in non-decreasing order.'''
 
 #method : TWO POINTERS
 
-'''-The code starts iterating from right = 1 because we need to compare each element with its previous element to 
+-The code starts iterating from right = 1 because we need to compare each element with its previous element to 
 check for duplicates.
 
 -The main logic is inside the for loop:
@@ -58,7 +58,9 @@ to mark the next position for a new unique element.
 -By doing this, we effectively overwrite any duplicates in the array and only keep the unique elements.
 Once the loop finishes, the value of j represents the length of the resulting array with duplicates removed.
 
--Finally, we return left as the desired result.'''
+-Finally, we return left as the desired result.
+
+CODE:
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -69,8 +71,8 @@ class Solution:
                 l+=1
         return l   
 
-
-'''Time Complexity: O(n)
-Space Complexity: O(1)'''
+COMPLEXITY:
+Time Complexity: O(n)
+Space Complexity: O(1)
 
 
