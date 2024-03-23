@@ -55,16 +55,15 @@ Constraints:
 
 > steps: two pointer approach
 
-- The code starts iterating from right = 1 because we need to compare each element with its previous element to 
+- The code starts iterating from `right = 1` because we need to compare each element with its previous element to 
     check for duplicates.
-- The main logic is inside the for loop:
-- If the current element nums[right] is not equal to the previous element nums[right - 1], it means we have encountered
+- Iterate through the array of nums
+- If the current element `nums[right]` is not equal to the previous element `nums[right - 1]`, it means we have encountered
     a new unique element.
-- In that case, we update nums[left] with the value of the unique element at nums[right], and then increment left by 1 
-    to mark the next position for a new unique element.
+- In that case, we update `nums[left]` with the value of the unique element at `nums[right]`, and then increment `left` by `1` to mark the next position for a new unique element.
 - By doing this, we effectively overwrite any duplicates in the array and only keep the unique elements.
-    Once the loop finishes, the value of j represents the length of the resulting array with duplicates removed.
-- Finally, we return left as the desired result.
+    Once the loop finishes, the value of `j` represents the length of the resulting array with duplicates removed.
+- Finally, we `return` `left` as the desired result.
 
 ## CODE
 ```python
