@@ -1,4 +1,4 @@
-# <a href="https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150">88 Merge Sorted Array</a>
+# <a href="https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150">88. Merge Sorted Array</a>
 
 ### Description
 

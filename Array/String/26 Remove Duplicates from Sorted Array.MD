@@ -1,4 +1,4 @@
-# <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150">26 Remove Duplicates from Sorted Array</a>
+# <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150">26. Remove Duplicates from Sorted Array</a>
 
 ### Description
 
