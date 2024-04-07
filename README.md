@@ -14,6 +14,7 @@
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Array%20%5C%20String/45.%20Jump%20game%20II.MD">45. Jump Game II</a>         |*`Array`, `dynamic Programming`, `greedy`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Array%20%5C%20String/274.%20H%20index.MD">274. H Index</a>         |*`Array`, `sorting`,`counting sort`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Array%20%5C%20String/380.%20Insert%20delete%20getRandom%20o(1).MD">380. Insert Delete GetRandom O(1)</a>         |*`Array`, `hashTable`, `Math`, `Design`, `Randomized`*            |
+|<a href="https://github.com/rishinpoolat/leetcode/blob/main/Array%20%5C%20String/238.%20Product%20of%20Array%20except%20Self.MD">238. Product of array except self</a>         |*`Array`, `prefixsum`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/22.%20Happy%20Number.MD">22. Happy Number. </a>         |*`HashTable`, `Math`, `Two Pointers`*            |    
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/219.%20Contains%20Duplicate%20II.MD">219. Contains Duplicates II </a>         |*`HashTable`,` Array`, `Sliding Window`*            |       
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/128.%20Longest%20Consecutive%20Sequence.MD">128. Longest Consecutive Sequence  </a>         |*`HashTable`,` Array`, `Union Find`*            |   
