@@ -26,6 +26,7 @@
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Two%20Pointers/392.%20Is%20Subsequence.MD">391. Is Subsequence </a>         |*`String`, `Two Pointers`,`Dynamic Programming`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Two%20Pointers/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.MD">167. Two Sum II - Input Array is sorted </a>         |*`Array`, `Two Pointers`,`Binary Search`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Two%20Pointers/11.%20Container%20with%20Most%20Water.MD">11. container with most water </a>         |*`Array`, `Two Pointers`,`Greedy`*            |
+|<a href="https://github.com/rishinpoolat/leetcode/blob/main/Two%20Pointers/15.%203Sum.MD">15. 3Sum </a>         |*`Array`, `Two Pointers`,`sorting`*            |
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/22.%20Happy%20Number.MD">22. Happy Number. </a>         |*`HashTable`, `Math`, `Two Pointers`*            |    
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/219.%20Contains%20Duplicate%20II.MD">219. Contains Duplicates II </a>         |*`HashTable`,` Array`, `Sliding Window`*            |       
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/128.%20Longest%20Consecutive%20Sequence.MD">128. Longest Consecutive Sequence  </a>         |*`HashTable`,` Array`, `Union Find`*            |   
