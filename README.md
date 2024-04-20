@@ -33,3 +33,4 @@
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/219.%20Contains%20Duplicate%20II.MD">219. Contains Duplicates II </a>         |*`HashTable`,` Array`, `Sliding Window`*            |       
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/HashMap/128.%20Longest%20Consecutive%20Sequence.MD">128. Longest Consecutive Sequence  </a>         |*`HashTable`,` Array`, `Union Find`*            |   
 |<a href="https://github.com/rishinpoolat/leetcode/blob/main/Intervals/228.%20Summary%20Ranges.MD">228. Summary Ranges  </a>         |*` Array`*            | 
+|<a href="https://github.com/rishinpoolat/leetcode/blob/main/Intervals/56.%20Merge%20Intervals.MD">56. Merge Intervals  </a>         |*` Array`, `Sorting`*            | 
